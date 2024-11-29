@@ -1,0 +1,133 @@
+<!--tarea_opcional_adrian_hernandez -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tarea opcional</title>
+</head>
+
+<body>
+    <a href="https://es.wikipedia.org/wiki/Wikipedia:Mes_de_Asia/2024"> <img src="img_wiki/logo_wikipedia.jpeg"
+            alt="logo" width="200"></a>
+    <form action="buscador" method="get"></form>
+    <input type="text" name="buscar" id="buscar">
+    <input type="submit" value="buscar">
+
+
+    <section aria-label="Indice">
+        <details>
+            <summary>
+                <h1>Base de datos relacional</h1>
+            </summary>
+
+            <h2>Contenido</h2><br>
+            <ul>
+                <li> <a href="#inicio">Inicio</a></li>
+                <li><a href="#">Características comunes</a></li>
+                <li><details>
+
+                    <summary><strong>Elementos</strong></summary><br>
+                    <ul>
+                        <li><a href="#">Relaciones (características en común)</a></li>
+                        <li> <a href="#">Relaciones base</a></li>
+                        <li> <a href="#">Relaciones derivadas</a></li>
+                        <li><a href="#">Dominios</a></li>
+                    </ul>
+                    <!-- Aquí deberia de ir más enlaces rápidos -->
+
+                </details></li>
+                <li><a href="#">Estructuras y definiciones</a></li>
+                <li><a href="#">Manipulación de la información</a></li>
+            </ul>
+        </details>
+    </section>
+    <hr>
+    <p>Articulo <a href="https://es.wikipedia.org/wiki/Discusi%C3%B3n:Base_de_datos_relacional">Discusión</a></p>
+    <fieldset>
+        <img src="img_wiki/libro_naranja.svg.webp" alt="nota">
+        Este artículo o sección tiene <a href="https://es.wikipedia.org/wiki/Wikipedia:Verificabilidad">referencias</a>,
+        pero necesita más para
+        complementar su <a href="https://es.wikipedia.org/wiki/Wikipedia:Fuentes_fiables">verificabilidad</a>. <br>
+        <h5>Busca fuentes: «Base de datos relacional» – noticias · libros · académico · imágenes
+            Este aviso fue puesto el 4 de agosto de 2023.</h5>
+    </fieldset>
+    <p>La <strong>Base de datos relacional</strong>(BDR) es un tipo de <a
+            href="https://es.wikipedia.org/wiki/Base_de_datos">base de datos</a> (BD) que cumple con el <a
+            href="https://es.wikipedia.org/wiki/Modelo_relacional">modelo
+            relacional </a>(el modelo más utilizado actualmente para implementar las BD ya planificadas). Tras ser
+        postuladas
+        sus bases en 1970 por <a href="https://es.wikipedia.org/wiki/Edgar_Frank_Codd">Edgar Frank Codd</a>,1​ de los
+        laboratorios IBM en San José (California), no tardó en
+        consolidarse como un nuevo paradigma en los modelos de base de datos.
+    </p>
+    <h2>Características comunes</h2>
+    <ul>
+        <li>Una base de datos se compone de varias tablas, denominadas relaciones.</li>
+        <li>No pueden existir dos tablas con el mismo nombre ni registro.</li>
+        <li>Cada tabla es a su vez un conjunto de campos (columnas) y registros (filas).</li>
+        <li>La relación entre una tabla padre y un hijo se lleva a cabo por medio de las llaves primarias y llaves
+            foráneas (o ajenas).
+        <li>Las llaves primarias son la clave principal de un registro dentro de una tabla y estas deben cumplir con la
+            integridad de datos.</li>
+        <li> Las llaves ajenas se colocan en la tabla hija, contienen el mismo valor que la llave primaria del registro
+            padre; por medio de estas se hacen las formas relacionales.</li>
+
+    </ul>
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Término SQL</th>
+                <th>Término de bases de datos relacionales</th>
+                <th>Descripción</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Fila</td>
+                <td>Tupla o registro</td>
+                <td>Un conjunto de datos, que representa un ítem simple</td>
+            </tr>
+
+            <tr>
+                <td rowspan="2"> Columna</td>
+                <td>Atributo o campo</td>
+                <td>Un elemento etiquetado de una tupla, p.e. "Dirección" o "Fecha de nacimiento" </td>
+            </tr>
+            <tr>
+
+                <td>Relación o Base relvar</td>
+                <td>Un conjunto de tuplas compartiendo los mismos atributos; un conjunto de filas y columnas. </td>
+            </tr>
+            <tr>
+                <td>Vista o conjunto de resultados</td>
+                <td>Relvar derivado</td>
+                <td>Cualquier conjunto de tuplas; un reporte o informe de datos de una RDBMS en respuesta a una consulta
+                </td>
+            </tr>
+        </tbody>
+    </table> <br>
+    <h3>Crear una cuenta</h3>
+    <hr><br>
+    <hr>
+
+    <form action="#">
+        <label for="usuario">Usuario</label><br>
+        <input type="text" name="usuario" id="usuario" placeholder="Escribe tu nombre de usuario"><br>
+        <label for="password">Contraseña</label><br>
+        <input type="password" name="password" id="password" placeholder="Escribe una contraseña"><br>
+        <label for="password">Confirmas contraseña</label><br>
+        <input type="password" name="confirm" id="confirm" placeholder="Introduce de nuevo la contraseña"><br>
+        <label for="email">Dirección de correo electrónico (recomendado)</label><br>
+        <input type="email" name="email" id="email" placeholder="Escribe tu dirección de correo electrónico"><br>
+        <input type="submit" value="Crea tu cuenta">
+        
+
+
+    </form>
+</body>
+
+
+</html>
